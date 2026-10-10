@@ -1,0 +1,99 @@
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+#cache
+.turbo
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env*
+
+out/
+build/
+dist/
+
+# plasmo - https://www.plasmo.com
+.plasmo
+
+# bpp - http://bpp.browser.market/
+keys.json
+
+# typescript
+.tsbuildinfo
+
+# GitHub publication: local credentials and generated files
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+!.env*.example
+!.env.sample
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+.netrc
+**/secrets/
+**/credentials/
+**/keystore/
+**/keystores/
+.local-publish-backup/
+
+# Local services and deployment credentials
+
+# Dependencies and generated files
+node_modules/
+vendor/
+.next/
+.turbo/
+out/
+cache/
+artifacts/
+broadcast/
+coverage/
+typechain-types/
+__pycache__/
+*.pyc
+*.tsbuildinfo
+*.log
+*.test
+*.prof
+
+# Compiled Go services
+
+# Local tools and operating-system files
+.DS_Store
+.idea/
+.vscode/
+.claude/
+.claude-ease/
+*.swp
+*.swo
+
+dist/
+.output/
+.wxt/
+.plasmo/
+*.zip
+*.db
+*.sqlite
+*.sqlite3
+forge-build-output.txt
